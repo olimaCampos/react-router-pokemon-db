@@ -1,0 +1,18 @@
+nav {
+  background-color: var(--primary-100);
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: var(--bg-200);
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav a.active {
+  color: var(--primary-100);
+  background-color: var(--bg-200);
+  border-radius: 8px;
+}
